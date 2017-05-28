@@ -13,4 +13,8 @@ public partial class MainWindow : Gtk.Window
         Application.Quit();
         a.RetVal = true;
     }
+
+    protected void Window1Open(object sender, EventArgs e)
+    {
+    }
 }
